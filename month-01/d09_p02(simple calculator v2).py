@@ -36,7 +36,7 @@ def multiply():
 
 def restart():
     while True:
-        choice = input("Choose 'y' for another calculation or choose 'n' to exit")
+        choice = input("Choose 'y' for another calculation or choose 'n' to exit:  ")
         match choice:
             case "y":
                 return True
